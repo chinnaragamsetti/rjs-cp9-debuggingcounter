@@ -1,8 +1,8 @@
-import Component from 'react'
+import {Component} from 'react'
 
 import './index.css'
 
-class Counter {
+class Counter extends Component {
   state = {count: 0}
 
   onDecrement = () => {
